@@ -8,6 +8,6 @@ public class AidLinkApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(AidLinkApplication.class, args);
-        System.out.println("My Project");
+        System.out.println("Project Working");
     }
 }
