@@ -10,7 +10,7 @@ import com.klef.demo.service.UserService;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin
+@CrossOrigin(origins = "https://aidlink-app.netlify.app/")
 public class UserController {
 
     @Autowired
