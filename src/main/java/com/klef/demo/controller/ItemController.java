@@ -8,7 +8,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/items")
-@CrossOrigin(origins = "https://aidlink-app.netlify.app/")
+@CrossOrigin(origins = "https://aid-link-app.netlify.app/")
 public class ItemController {
 
     private final ItemService itemService;
